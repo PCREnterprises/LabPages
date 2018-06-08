@@ -1,6 +1,12 @@
 // bower:scss
 // endbower
 
+body {
+  background: white;
+  margin: 0em;
+  z-index: 0;
+}
+
 .browserupgrade {
   margin: 0.2em 0;
   background: #ccc;
@@ -8,9 +14,37 @@
   padding: 0.2em 0;
 }
 
-body {
-  background: white;
-  margin: 0px;
-  z-index: 0;
+.col {
+  display: flex;
+  flex-direction: column;
 }
 
+.margin_zero {
+  margin: 0rem 0rem 0rem 0rem;
+}
+
+header {
+  background-color: black;
+  color: white;
+}
+
+.nav_header {
+  height: 5rem;
+  nav {
+    font-size: 2rem;
+    a {
+      text-decoration: none;
+      color: white;
+    }
+  }
+}
+
+.banner_header {
+  height: 20rem;
+  background-color: black;
+  h1 {
+    color: white;
+    font-size: 5.5rem;
+    font-weight: 100;
+  }
+}
