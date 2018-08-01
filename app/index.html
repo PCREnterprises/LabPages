@@ -6,8 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>LabPages</title>
 
-    <!-- Place favicon.ico in the root directory -->
 
+    <!-- build:css styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- Place favicon.ico in the root directory -->
+    <!-- material-design-lite style imports -->
+    <link rel="stylesheet" href="/node_modules/material-design-lite/material.min.css">
+    <script src="/node_modules/material-design-lite/material.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <!-- build:css styles/vendor.css -->
     <!-- bower:css -->
     <link rel="stylesheet" href="/bower_components/flexboxgrid/dist/flexboxgrid.css" />
@@ -18,9 +24,6 @@
     <!-- build:css styles/flexboxgrid.css -->
     <link rel="stylesheet" href="/bower_components/flexboxgrid/dist/flexboxgrid.min.css">
     <!-- endbuild -->
-
-    <!-- build:css styles/main.css -->
-    <link rel="stylesheet" href="styles/main.css">
     <!-- endbuild -->
 
     <!-- build:js scripts/vendor/modernizr.js -->
@@ -36,9 +39,10 @@
       <div class="row bottom-xs center-xs margin_zero nav_header">
         <img class="logo box col-sm-2" src="images/logo.svg" alt="University Logo" />
         <nav class="row around-xs col-sm-9 margin_zero">
+          <a href="#" class="box">Home</a>
           <a href="#" class="box">Research</a>
           <a href="#" class="box">People</a>
-          <a href="./templetes/publication-page.html" class="box">Publication</a>
+          <a href="templates/publication-page.html" class="box">Publication</a>
           <a href="#" class="box">Photos</a>
           <a href="#" class="box">Journal Club</a>
         </nav>
@@ -47,7 +51,7 @@
         <h1 class="row margin_zero">SUN LAB</h1>
       </div>
     </header>
-    <main class="row margin_zero col-sm-12">
+    <main class="row margin_zero col-sm-12" id="#">
       <article class="col col-sm-3">
         <img src="images/art_1.png" alt="Article-1" />
         <h2 class="margin_zero">My awesome article</h2>
@@ -91,5 +95,8 @@
     <!-- build:js scripts/main.js -->
     <script src="scripts/main.js"></script>
     <!-- endbuild -->
+    <!-- data table jquery -->
+    <script type="text/javascript" charset="utf8" src="/DataTables/datatables.js"></script>
+
   </body>
 </html>

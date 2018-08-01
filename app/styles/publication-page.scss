@@ -1,0 +1,93 @@
+.publication {
+  width: 100%;
+  height: 100%;
+  min-height: min-content;
+  background-color: #000;
+  padding-bottom: 2%;
+}
+
+.publication-padding {
+  padding: 0 8% 0 8%;
+}
+
+h1 {
+  font-size: 5.5em;
+  font-weight: 100;
+  color: white;
+  text-align: center;
+}
+
+.btn-aln {
+  margin-left: 8%;
+}
+
+table {
+  margin-top: 5%;
+  color: white;
+}
+
+td{
+  font-size: x-large;
+  width: 50%;
+  height: 200px;
+}
+
+.img-size {
+  height: 200px;
+  width: auto;
+}
+
+.text-end {
+  text-align: end;
+}
+
+.font-x-large {
+  font-size: x-large;
+}
+
+.white {
+  color: white;
+}
+
+.btn {
+  width: 101px;
+  background: black;
+  font-size: 20px;
+  font-weight: 600;
+  /* text-decoration-line: none; */
+  /* color: wheat; */
+  padding: 4px;
+  border: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+input {
+  box-sizing: inherit;
+  background-color: rgba(255, 254, 254, 0);
+  -webkit-rtl-ordering: logical;
+  cursor: text;
+  padding: 2px;
+  border-width: 0;
+  border-bottom: 2px solid white;
+  border-color: white;
+  border-image: none;
+  text-rendering: auto;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  text-indent: 6px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: start;
+  margin: 4px;
+  font: 400 22.3333px Arial;
+  color: white;
+}
+
+
+input:focus {
+  outline: none;
+}
